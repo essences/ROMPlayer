@@ -32,7 +32,7 @@ class Conductor {
         
         // MIDI Configure
         midi.createVirtualPorts()
-        midi.openInput("Session 1")
+        midi.openInput(name:"Session 1")
         midi.openOutput()
     
         // Session settings
